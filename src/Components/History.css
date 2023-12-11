@@ -1,0 +1,18 @@
+.histroy-table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    width: 1000px;
+    margin: 30px 20px;
+    /* border-spacing: 0px; */
+}
+
+ th, td {
+    border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:hover {background-color: #ddd;}

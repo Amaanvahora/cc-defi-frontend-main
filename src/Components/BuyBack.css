@@ -1,0 +1,53 @@
+/* BuyBack.css */
+
+.buyback-main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .buyback-wrapper {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+  }
+  
+  .buyback-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .buyback-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .buyback-btn {
+    background-color: #1B1246;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buyback-btn:hover {
+    background-color: #1B1246;
+  }
+  
+  .buyback-error {
+    margin-top: 15px;
+    color: red;
+    text-align: center;
+  }
+  

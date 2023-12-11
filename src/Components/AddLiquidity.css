@@ -1,0 +1,117 @@
+/* AddLiquidity.css */
+
+.addliquidity-main {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.addliquidty-wrapper {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 300px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.token-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input.input-balance {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button.submit-btn {
+  background-color: #1B1246;
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button.submit-btn:hover {
+  background-color: #1B1246;
+}
+
+.history-main {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 60%;
+}
+
+.histroy-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.history-search {
+  margin-bottom: 15px;
+}
+
+.history-search input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.histroy-table {
+  overflow-x: auto;
+}
+
+.histroy-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.histroy-table table th,
+.histroy-table table td {
+  border: 1px solid #ddd;
+  padding: 14px;
+  text-align: left;
+}
+
+.histroy-table table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
